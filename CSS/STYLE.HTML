@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS FIRST PARCTISE</title>
+    <style>
+     h1{
+        font-family: 'Courier New', Courier, monospace; color: fuchsia; text-align: center;
+     }   
+     h3{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: darkviolet;
+     }
+     table,th,td{ border: 2px solid pink; background-color: bisque; border-collapse: collapse; border-radius: 50%; 
+
+     }
+     hr{ color: coral; size: 3px;}
+     .subhead{ font-size: 15px ; font-weight: bold; } 
+
+     body{
+        background: lightblue ;
+     }
+     .text {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style: italic;
+     }
+     
+    </style>
 </head>
 <body>
     <H1 >THIS IS FIRST PARCTICE OF CSS LEARNING</H1>
+    <hr>
     <DIV>
         
             <h3> I WILL FIRST CREATE SOME HTML TEMPLATES LIKE</h3>
@@ -29,7 +51,7 @@
 <h3>
    <b>Q.</b> Why Do i need to do this?
 </h3>
-<p><blockquote><b>Ans</b></blockquote> i need this because, when searching for practicebooks on google, templates were present with pre designed formats, that i  think can limits
+<p class="text"><blockquote><b>Ans</b></blockquote> I need this because, when searching for practicebooks on google, templates were present with pre designed formats, that i  think can limits
     my creativty, thasts why i thaught, i should create my own lorem ipsum that i can use for my practise
 </p>
     </DIV>
@@ -50,11 +72,11 @@
             </tr>
             <tr>
                 <td>      </td>
-                <td><b>First Name</b></td>
-                <td>Last Name</td>
-                <td>Date</td>
-                <td>Month</td>
-                <td>Year</td>
+                <td class="subhead">First Name</td>
+                <td class="subhead">Last Name</td>
+                <td class="subhead">Date</td>
+                <td class="subhead" >Month</td>
+                <td class="subhead">Year</td>
                 <Td>    </Td>
                 <TD>     </TD>
             </tr>
@@ -99,6 +121,7 @@
                 <td><input size="3px"></td>
             </tr>
         </table>
-    </div>
+   
+
 </body>
 </html>
