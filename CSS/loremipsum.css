@@ -1,9 +1,12 @@
-.firsthead{ background-color: aqua;
-     text-align: center; border: 4px strong slateblue;
-}
-.h3{font-size: 335px;}
+h2 {font-weight: 900; font-family: monospace;color: chocolate; background-color: lightgreen ; border: 2px solid red; posio}
 
-
+h3{ font: italic; font-size: 18px; }
 #lorem{
-    font-size: 100px ;text-align: center; font-family: cursive;
-}
+   font-size: 100px ;text-align: center; font-family: cursive;
+   }
+   p{background-color: lightskyblue; text-decoration: aliceblue;}
+   .topbanner{
+    border: 2px strong slateblue; padding: 5px;margin-top: 25px; border-radius: 50%;
+    background-color: aqua;
+    text-align: center;
+   }
