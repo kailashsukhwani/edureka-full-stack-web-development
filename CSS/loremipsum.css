@@ -10,3 +10,20 @@ h3{ font: italic; font-size: 18px; }
     background-color: aqua;
     text-align: center;
    }
+  .container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 40%;
+   margin: auto;
+   border: 3px solid #54e6E7;
+   background-color: #aac6c6;
+   box-shadow: 0px 0px 15px #aac6c6 
+   } 
+   .progress{
+      width: 2px;
+      background-color: #1a2929;
+      opacity: 0.8;
+      animation: 1s infinite alternate;
+   }
