@@ -1,0 +1,43 @@
+/* header css */
+#header { border: solid 2px #cddc39;
+    height: 100px;
+    width: 100%;
+     top: 2px;
+     background-color: tomato;
+     
+}
+
+
+
+
+/* login css */
+
+#login{  float: right;
+    margin-top: -100px;
+    display: inline;
+
+}
+.s{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border: 0PX;
+border-radius:80%;
+margin-top: 25px;
+
+}
+
+.search{
+    border: solid;
+    height: 300px;
+    width: 100%;
+    background-image: url(/ZOMATO/images/head\ large.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px;
+
+}
+#searchtext{ font:normal normal 600 36px/55px Poppins;
+ font-size:20px;
+    color:#fff;
+}
